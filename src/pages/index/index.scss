@@ -1,0 +1,115 @@
+/**index.wxss**/
+.dw{
+  position: absolute;
+  top:0;
+  right: 0;
+  width:100px;
+  height: 100%;
+}
+.wxSortPickerViewTag{
+  background-color: #f1f1f1;
+  font-size: 16px;
+  font-weight: bold;
+  color: #999999;
+  line-height: 30px;
+  padding: 0 15px;
+}
+.wxSortPickerViewItem{
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #eee;
+  margin-left: 15px;
+  color: #444;
+}
+.hor{
+  font-size: 14px;
+  color: #999999;
+  font-weight: 500;
+  display: block;
+  padding: 14px 25px 5px 0px;
+}
+.kuai{
+  height: 30px;
+  width: 28%;
+  text-align: center;
+  line-height: 30px;
+  color: #444;
+  font-weight: 500;
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 2px;
+}
+.searchLetter{
+  position: fixed;
+  right: 0;
+  width: 20px;
+  height: 80%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #666;
+  z-index: 1
+}
+.searchLetter view{
+  height: 70rpx;
+}
+.touchClass{
+  top: 50px;
+  margin-top: 35px;
+  right: 0;
+  background-color: #fff;
+  color: #1296db;
+  font-weight: 700;
+}
+.showSlectedLetter{
+  background-color: rgba(0, 0, 0,0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  margin: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius:10px;
+  font-size: 26px;
+  z-index: 1
+}
+.selection{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.item_letter{
+  display: flex;
+  background-color: #f8f8f8;
+  height: 30px;
+  padding-left: 10px;
+  align-items: center;
+}
+.item_city{
+  display: flex;
+  background-color: #fff;
+  height: 40px;
+  padding-left: 10px;
+  align-items: center;
+  border-bottom: 1px solid #f8f8f8
+}
+.gps{
+  position: relative;
+  height: 38px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  line-height: 38px;
+  padding-left: 15px;
+  font-size: 16px;
+}
+.gpsif {
+  font-size: 14px;
+  color: #ccc;
+}
