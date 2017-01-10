@@ -13,11 +13,11 @@
         {{showLetter}}
     </view>
 </block>
-
+<view class="searchLetter touchClass" >
+    <view wx:for="{{searchLetter}}" style="height:{{itemH}}px" wx:key="index" data-letter="{{item.name}}" catchtouchstart="searchStart" catchtouchmove="searchMove" catchtouchend="searchEnd">{{item.name}}</view>
+</view>
 <scroll-view scroll-y="true" style="height:{{winHeight}}px" bindscroll="bindScroll"  scroll-into-view="{{showLetter}}">
-    <view class="searchLetter touchClass" >
-        <view wx:for="{{searchLetter}}" style="height:{{itemH}}px" wx:key="index" data-letter="{{item.name}}" catchtouchstart="searchStart" catchtouchmove="searchMove" catchtouchend="searchEnd">{{item.name}}</view>
-    </view>
+
     <view class="selection" wx:for="{{cityList}}" wx:key="{{item.initial}}"  id="{{item.initial}}">
         <block wx:if="{{index===0}}" >
             <block wx:if="{{cityArr.length}}" >

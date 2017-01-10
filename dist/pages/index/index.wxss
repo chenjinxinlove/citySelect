@@ -12,6 +12,7 @@
   font-weight: bold;
   color: #999999;
   line-height: 30px;
+  height: 30px;
   padding: 0 15px; }
 
 .wxSortPickerViewItem {
